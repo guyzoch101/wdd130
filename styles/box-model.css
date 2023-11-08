@@ -1,0 +1,30 @@
+.callout {
+	width: 400px;
+    margin: 10px;
+    border: 1px solid Azure;
+    padding: 20px;
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+
+.callout img {
+	float: right;
+    margin: 0 0 10px 15px;
+    border: 1px solid antiquewhite;
+    padding: 3px;
+    background-color: cornflowerblue;
+    width: 100px;
+    height: auto;
+}
+
+blockquote {
+	margin: 0;
+}
+
+cite {
+	display: block;
+    border-top: 1px dotted cornflowerblue;
+    padding-top: 3px;
+    text-align: right;
+    font-size: smaller;
+}
