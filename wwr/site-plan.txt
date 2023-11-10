@@ -1,0 +1,24 @@
+Statement of purpose and goals:
+    Venture along the streams. Connect your passion with us (Company name).
+
+Target audience:
+    1. Who are the target customers?
+    Anyone at any age who is interested in rafting.
+    No matter your eperience with rafting, we promised to provide affordable rafting service to all customers.
+
+    2. What do they want?
+    To find their passion in life through rafting. Or to get started in rafting.
+
+    3. How will my audience usually access my site?
+    This site is highly accessible, once a device is connected to the Internet, the device can access this site.
+
+Colour palette:
+    Primary: Gunmetal #2d3142
+    Secondary: Silver #bfc0c0
+    Accent 1: Coral #ef8354
+    Aceent 2: Payne's gray #4f5d75
+        URL: https://coolors.co/2d3142-bfc0c0-ffffff-ef8354-4f5d75
+
+Fonts:
+    Roboto Regular 400: san-serif
+    Caveat Semibold 600: cursive

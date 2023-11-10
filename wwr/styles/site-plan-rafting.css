@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Roboto&display=swap')
+
+:root {
+    --primary-color: #2d3142; /* gunmetal */
+    --secondary-color: #bfc0c0; /* silver */
+    --accent1-color: #ef8354; /* coral */
+    --accent2-color: #4f5d75; /* payne's grey */
+
+    --heading-font: caveat, san-serif;
+    --paragraph-font: roboto, san-serif;
+
+    --nav-background-color: #2d3142; /* gunmetal */
+    --nav-link-color: #bfc0c0; /* silver */
+    --nav-hover-link-color: #ef8354; /* coral */
+    --nav-hover-background-color: #4f5d75; /* payne's grey */
+}
