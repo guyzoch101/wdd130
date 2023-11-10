@@ -1,5 +1,5 @@
 nav {
-    background-color: steelblue;
+    background-color: #4a4e69;
     padding: 10px
 }
 
@@ -10,13 +10,13 @@ nav a {
 }
 
 h1 {
-    color: steelblue;
+    color: #22223b;
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid #c9ada7;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -32,11 +32,11 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border:;
-    padding:;
-    background-color:;
-    color:;
-    text-align:;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #4a4e69;
+    color:#f2e9e4;
+    text-align: center;
 }
 
 aisde img {
@@ -45,7 +45,7 @@ aisde img {
 }
 
 footer {
-    margin-top:;
-    border-top:;
+    margin-top: 15px;
+    border-top: 1px solid #000;
     text-align: center;
 }
