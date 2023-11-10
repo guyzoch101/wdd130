@@ -42,7 +42,6 @@ aside {
 aside img {
     width: 200px;
     height: auto;
-    border: 1px solid #9a8c98;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
