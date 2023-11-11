@@ -43,7 +43,7 @@ aside img {
     width: 200px;
     height: auto;
     padding: 2px #c9ada7;
-    box-shadow: 0 0 30px #c9ada7;
+    box-shadow: 0 0 30px gray;
 }
 
 footer {
