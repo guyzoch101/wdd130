@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Hind&display=swap');
 
 :root {
     --primary-color: #2d3142; /* gunmetal */
@@ -6,8 +6,8 @@
     --accent1-color: #ef8354; /* coral */
     --accent2-color: #4f5d75; /* payne's grey */
 
-    --heading-font: caveat, san-serif;
-    --paragraph-font: roboto, san-serif;
+    --heading-font: "Black Ops One", serif;
+    --paragraph-font: hind, san-serif;
 
     --nav-background-color: #2d3142; /* gunmetal */
     --nav-link-color: #bfc0c0; /* silver */

@@ -20,5 +20,5 @@ Colour palette:
         URL: https://coolors.co/2d3142-bfc0c0-ffffff-ef8354-4f5d75
 
 Fonts:
-    Roboto Regular 400: san-serif
-    Caveat Semibold 600: cursive
+    Hind Regular 400: san-serif
+    Caveat Regular 400: serif
