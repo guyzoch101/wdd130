@@ -13,12 +13,12 @@ Target audience:
     This site is highly accessible, once a device is connected to the Internet, the device can access this site.
 
 Colour palette:
-    Primary: Gunmetal #2d3142
-    Secondary: Silver #bfc0c0
-    Accent 1: Coral #ef8354
-    Aceent 2: Payne's gray #4f5d75
-        URL: https://coolors.co/2d3142-bfc0c0-ffffff-ef8354-4f5d75
+    Primary: True Blue #4464ad
+    Secondary: Powder Blue #a4b0f5
+    Accent 1: Dark Orange (web) #f58f29
+    Aceent 2: Lapis Lazuli #466995
+        URL: https://coolors.co/4464ad-a4b0f5-f58f29-466995
 
 Fonts:
     Hind Regular 400: san-serif
-    Caveat Regular 400: serif
+    Black Ops One Regular 400: serif
