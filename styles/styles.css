@@ -1,3 +1,9 @@
+* {
+    margin: 1px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: #4a4e69;
     padding: 10px
@@ -9,20 +15,28 @@ nav a {
     padding: 20px;
 }
 
+nav a:hover {
+    color: #f58f29;
+}
+
+a:hover {
+    color: #a4b0f5;
+}
+
 h1 {
     color: #22223b;
 }
 
 main img {
-    width: 150px;
+    width: 200px;
     height: auto;
     border: 1px solid #c9ada7;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
-p {
-    padding: 0;
+main p {
+    padding-left: 25px;
 }
 
 main {
@@ -32,7 +46,7 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0,0,0,0.2);
     padding: 1rem;
     background-color: #4a4e69;
     color:#f2e9e4;
@@ -43,11 +57,38 @@ aside img {
     width: 200px;
     height: auto;
     padding: 2px;
-    box-shadow: 0 0 30px #c9ada7;
+    box-shadow: 0 0 30px #22223b;
+}
+
+aside p {
+    padding-top: 7px;
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 2rem;
+    background-color: #ddd;
+    color: #000;
+    clear: both;
+}
+
+main img {
+    float: right;
+    margin: 25px;
+}
+
+aside h2 {
+    position: absolute;
+    bottom: 26px;
+    left: 65px;
+    background-color: #22223b;
+    color: azure;
 }
