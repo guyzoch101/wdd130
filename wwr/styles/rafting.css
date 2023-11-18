@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Hind&display=swap');
+
+:root {
+    --primary-color: #4464ad; /* True Blue */
+    --secondary-color: #a4b0f5; /* Powder Blue */
+    --accent1-color: #f58f29; /* Dark Orange (web) */
+    --accent2-color: #466995; /* Lapis Lazuli */
+
+    --heading-font: "Black Ops One", serif;
+    --paragraph-font: hind, san-serif;
+
+    --nav-background-color: #f58f29; /* Dark Orange (web) */
+    --nav-link-color: #4464ad; /* True Blue */
+    --nav-hover-link-color: #466995; /* Lapis Lazuli */
+    --nav-hover-background-color: #a4b0f5; /* Powder Blue */
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+}
+
+nav a {
+    background-color: var(--nav-background-color);
+    padding: 1rem;
+    font-size: larger;
+    border: 1px solid #4464ad;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+footer img {
+    width: 50px;
+    padding: 5px;
+}
+
+.hero div {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 350px;
+    background-color:aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30%;
+    padding-right: 2%;
+    opacity: 0.72;
+}
+
+article {
+    position: absolute;
+    top: 500px;
+    left: 58.5px;
+    background: var(--secondary-color);
+	border: 1px groove aliceblue;
+	padding: 1rem;
+	opacity: 0.85;
+}
+
+article img {
+    float: right;
+    width: 200px;
+    height: auto;
+    padding: 8px;
+}
