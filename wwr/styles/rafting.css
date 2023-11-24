@@ -28,11 +28,25 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     padding: 20px;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    align-items: center;
+    background-color: azure;
 }
 
 header img {
     width: 200px;
     height: auto;
+}
+
+nav {
+    /* background-color: var(--nav-background-color); */
+    padding: 1rem;
+    font-size: larger;
+    /* border: 1px solid #4464ad; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 nav a {
@@ -76,6 +90,11 @@ footer img {
     position: relative;
 }
 
+.background {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 h1 {
     position: absolute;
     top: 350px;
@@ -102,4 +121,47 @@ article img {
     width: 200px;
     height: auto;
     padding: 8px;
+}
+
+.history-section {
+    display: grid;
+    grid-template-columns: 550px 1fr;
+    grid-template-rows: 4em 1fr;
+    background-color: #a4b0f5;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.history-section h2 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    background-color:aliceblue;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 40%;
+    padding-right: 2%;
+}
+
+.history-section img {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    width: 400px;
+    height: auto;
+    align-self: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.right-p {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    align-self: center;
+    align-items: center;
+}
+
+.picture-section {
+    
 }
