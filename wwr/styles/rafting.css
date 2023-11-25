@@ -163,5 +163,9 @@ article img {
 }
 
 .picture-section {
-    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4em 1fr;
+    grid-gap: 20px;
+    background-color: azure;
 }
