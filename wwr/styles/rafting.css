@@ -32,6 +32,7 @@ header {
     grid-template-columns: 350px 1fr;
     align-items: center;
     background-color: azure;
+    margin-bottom: 20px;
 }
 
 header img {
@@ -40,10 +41,8 @@ header img {
 }
 
 nav {
-    /* background-color: var(--nav-background-color); */
     padding: 1rem;
     font-size: larger;
-    /* border: 1px solid #4464ad; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -101,7 +100,7 @@ h1 {
     background-color:aliceblue;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 30%;
+    padding-left: 15%;
     padding-right: 2%;
     opacity: 0.72;
 }
@@ -141,7 +140,7 @@ article img {
     background-color:aliceblue;
     padding-top: 25px;
     padding-bottom: 10px;
-    padding-left: 40%;
+    padding-left: 42%;
     padding-right: 2%;
 }
 
@@ -162,10 +161,71 @@ article img {
     align-items: center;
 }
 
-.picture-section {
+.pictures-section {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 4em 1fr;
-    grid-gap: 20px;
-    background-color: azure;
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+
+h3 {
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 46%;
+    padding-right: 2%;
+}
+
+.pictures-section img {
+    width: 200px;
+    height: auto;
+    padding: 0;
+}
+
+.image-1 {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+
+.image-2 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+
+.image-3 {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+}
+
+.image-4 {
+    grid-row: 2 / 3;
+    grid-column: 4 / 5;
+}
+
+.image-5 {
+    grid-row: 2 / 3;
+    grid-column: 5 / 6;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+}
+
+footer p {
+    justify-content: center;
+    align-self: center;
+    padding: 15px;
+}
+
+footer nav {
+    justify-content: flex-end;
+    align-self: center;
+    padding: 15px;
 }
