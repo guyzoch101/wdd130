@@ -108,7 +108,7 @@ h1 {
 article {
     position: absolute;
     top: 500px;
-    left: 58.5px;
+    left: 51px;
     background: var(--secondary-color);
 	border: 1px groove aliceblue;
 	padding: 1rem;
@@ -169,7 +169,7 @@ article img {
     margin-top: 20px;
 }
 
-h3 {
+.pictures-section h2 {
     grid-column: 1 / 6;
     grid-row: 1 / 2;
     justify-content: center;
@@ -177,7 +177,7 @@ h3 {
     align-items: center;
     padding-top: 25px;
     padding-bottom: 10px;
-    padding-left: 46%;
+    padding-left: 40%;
     padding-right: 2%;
 }
 
