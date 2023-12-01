@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD 130 | HTML From - User Poll</title>
+        <meta name="author" content="Man Hei Tristan Wong">
+        <meta name="description" content="A poll form">
+    </head>
+    <body>
+        <header>
+            <h1>WDD 130 | Man Hei Tristan Wong | HTML From - User Poll</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname"><br>
+
+                    <label for="useremail">Email:</label>
+                    <input type="text" id="useremail" name="useremail">
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <label for="browser">What is your favourite browser?</label>
+                    <select id="browser" name="browser">
+                        <option value="google">Google</option>
+                        <option value="chrome">Chrome</option>
+                        <option value="safari">Safari</option>
+                        <option value="firefox">Firefox</option>
+                    </select><br>
+                    
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet"><br>
+                    
+                    <label for="places">List the places you have lived:</label>
+                    <textarea id="places" name="places" rows="4" placeholder="Hong Kong, Taipei Taiwan, Rexburg ID"></textarea>
+                </fieldset><br>
+                <button type="submit">Submit Poll</button>
+            </form>
+        </main>
+        <footer>
+            <p>©2024 | HTML Form - User Poll Activity | Man Hei Tristan Wong</p>
+        </footer>
+    </body>
+</html>
