@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz | Man Hei Tristan Wong</title>
+        <meta name="author" content="Man Hei Tristan Wong">
+        <meta name="description" content="A quiz form">
+        <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+    <body>
+        <header>
+            <h1>Basic HTML and CSS Quiz</h1>
+        </header>
+        <main>
+            <form>
+                <!--Question 1-->
+                <label for="q1">1. What does HTML stand for?</label><br>
+                <input type="text" id="q1" name="q1"><br>
+
+                <!--Question 2-->
+                <label for="q2">2. Write a CSS declaration with a <br>i. 10px padding <br>ii. 1px black solid border <br>iii. align it to the center.</label><br>
+                <textarea id="q2" name="q2" rows="4" placeholder=""></textarea><br>
+
+                <!--Question 3-->
+                <label for="q3">3. Pick a relative unit in CSS.</label>
+                <br><select id="q3" name="q3">
+                    <option value="" selected disabled>Choose One...</option>
+                    <option value="cm">cm</option>
+                    <option value="em">em</option>
+                    <option value="px">px</option>
+                    <option value="inch">inch</option>
+                </select><br>
+
+                <!--Question 4-->
+                <label id="q4">Find the value of red in the colour #F58F29 (Dark Orange: web)</label><br>
+                <input type="number" id="q4" name="q4"><br>
+
+                <button type="submit">Submit Quiz</button>
+            </form>
+        </main>
+    </body>
+</html>
