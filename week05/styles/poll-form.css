@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Hind&display=swap');
+
+:root {
+    --heading-font: 'Black Ops One', serif;
+    --paragraph-font: hind, san-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    color: blueviolet;
+    padding: 10px;
+    text-align: center;
+    font-family: var(--heading-font);
+    width: 560px;
+}
+
+form {
+    width: 560px;
+    margin: 5px;
+    padding: 1rem;
+    border: 1px solid black;
+    background-color: azure;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 5px;
+    padding: 10px;
+}
+
+legend {
+    color: blueviolet;
+    font-size: 1.5em;
+    padding: 5px;
+    font-family: var(--heading-font);
+}
+
+label, input, button, select, textarea {
+    font-family: var(--paragraph-font);
+}
+
+label {
+    padding-right: 5px;
+}
+
+div label {
+    text-align: right;
+}
+
+input, select, textarea {
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    border: 1px solid black;
+    padding: 0.2em;
+    font-size: 1.3em;
+    background-color: bisque;
+}
+
+button:hover {
+    background-color: #97dffc;
+    color: blueviolet;
+    font-weight: bold;
+    border: 1px solid #97dffc;
+}
+
+footer {
+    border-top: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 565px;
+    font-size: 0.9em;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 10px 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    text-align: right;
+}

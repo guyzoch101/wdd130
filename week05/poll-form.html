@@ -6,6 +6,7 @@
         <title>WDD 130 | HTML From - User Poll</title>
         <meta name="author" content="Man Hei Tristan Wong">
         <meta name="description" content="A poll form">
+        <link rel="stylesheet" href="styles/poll-form.css">
     </head>
     <body>
         <header>
@@ -15,25 +16,32 @@
             <form>
                 <fieldset>
                     <legend>Contact Information</legend>
-                    <label for="fullname">Full Name:</label>
-                    <input type="text" id="fullname" name="fullname"><br>
+                    <div class="column2">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname"><br>
+                    </div>
 
-                    <label for="useremail">Email:</label>
-                    <input type="text" id="useremail" name="useremail">
-                </fieldset>
+                    <div class="column2">
+                        <label for="useremail">Email:</label>
+                        <input type="text" id="useremail" name="useremail">
+                    </div>
+                </fieldset><br>
                 <fieldset>
                     <legend>Questions</legend>
+
                     <label for="browser">What is your favourite browser?</label>
-                    <select id="browser" name="browser">
-                        <option value="google">Google</option>
-                        <option value="chrome">Chrome</option>
-                        <option value="safari">Safari</option>
-                        <option value="firefox">Firefox</option>
-                    </select><br>
-                    
+                    <div class="column1">
+                        <select id="browser" name="browser">
+                            <option value="google">Google</option>
+                            <option value="chrome">Chrome</option>
+                            <option value="safari">Safari</option>
+                            <option value="firefox">Firefox</option>
+                        </select><br>
+                    </div>
+
                     <label for="pet">Do you have a household pet?</label>
                     <input type="checkbox" id="pet" name="pet"><br>
-                    
+
                     <label for="places">List the places you have lived:</label>
                     <textarea id="places" name="places" rows="4" placeholder="Hong Kong, Taipei Taiwan, Rexburg ID"></textarea>
                 </fieldset><br>
