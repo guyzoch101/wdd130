@@ -31,23 +31,23 @@
                 <h2>Employees</h2>
                 <figure class="employee-1">
                     <img src="images/employee-1.jpg" alt="Senior raft guide: Finley Brock">
-                    <figcaption>Finley Brock</figcaption>
-                    <figcaption>Senior Raft Guide</figcaption>
+                    <p>Finley Brock</p>
+                    <p>Senior Raft Guide</p>
                 </figure>
                 <figure class="employee-2">
                     <img src="images/employee-2.jpg" alt="Raft guide: Maximo Wagner">
-                    <figcaption>Maximo Wagner</figcaption>
-                    <figcaption>Raft Guide</figcaption>
+                    <p>Maximo Wagner</p>
+                    <p>Raft Guide</p>
                 </figure>
                 <figure class="employee-3">
                     <img src="images/employee-3.jpg" alt="Raft guide: Jennifer Hall">
-                    <figcaption>Jennifer Hall</figcaption>
-                    <figcaption>Raft Guide</figcaption>
+                    <p>Jennifer Hall</p>
+                    <p>Raft Guide</p>
                 </figure>
                 <figure class="employee-4">
                     <img src="images/employee-4.jpg" alt="Raft guide: Miguel Donaldson">
-                    <figcaption>Miguel Donaldson</figcaption>
-                    <figcaption>Raft Guide</figcaption>
+                    <p>Miguel Donaldson</p>
+                    <p>Raft Guide</p>
                 </figure>
             </div>
             <form>
@@ -59,11 +59,12 @@
                     <label for="email">Email: </label><br>
                     <input type="text" id="email" name="email"><br><br>
 
-                    <label for="purpose">Purpose: </label><br>
-                    <input type="radio" id="purpose" name="purpose" value="general inquiry"><label for="purpose">General Inquiry</label><br>
-                    <input type="radio" id="purpose" name="purpose" value="reservation question"><label for="purpose">Reservation Question</label><br>
-                    <input type="radio" id="purpose" name="purpose" value="website suggestion"><label for="purpose">Website Suggestion</label><br><br>
-
+                    <div>
+                        <label for="purpose">Purpose: </label><br>
+                        <input type="radio" id="purpose" name="general" value="general"><label>General Inquiry</label><br>
+                        <input type="radio" id="purpose2" name="reservation" value="reservation question"><label>Reservation Question</label><br>
+                        <input type="radio" id="purpose3" name="suggestion" value="website suggestion"><label>Website Suggestion</label><br><br>
+                    </div>
                     <label for="message">Your Message: </label><br>
                     <textarea id="message" name="message" rows="4" placeholder="Enter your message here..."></textarea><br>
 

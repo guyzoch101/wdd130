@@ -274,9 +274,8 @@ iframe {
     padding-left: 50px;
 }
 
-figcaption {
+figure p {
     text-align: center;
-    padding: 0.5em;
     font-size: 1.1em;
     font-family: var(--heading-font);
     font-weight: lighter;
