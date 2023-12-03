@@ -94,7 +94,7 @@ footer img {
     padding-bottom: 10px;
 }
 
-h1 {
+.rafting {
     position: absolute;
     top: 350px;
     background-color:aliceblue;
@@ -248,7 +248,7 @@ iframe {
     border: 0.5px solid var(--accent2-color);
 }
 
-.company-information h2 {
+.company-information h1 {
     padding-left: 5%;
 }
 
