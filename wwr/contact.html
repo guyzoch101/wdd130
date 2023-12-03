@@ -19,55 +19,57 @@
             </nav>
         </header>
         <main>
-            <div class="Company Information">
+            <div class="company-information">
                 <h2>Company Information</h2>
                 <p>Address: 878 Marconi St. Lakeland, FL 33813</p>
                 <p>Phone Number: +1(786) 331-5320, +1(904) 932-5676</p>
                 <p>Email: leocharre@rafting.com</p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d90371.67408942762!2d-81.5953121431669!3d29.954481165134503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1701557752445!5m2!1sen!2sus" 
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="employees">
-                <figure>
+                <h2>Employees</h2>
+                <figure class="employee-1">
                     <img src="images/employee-1.jpg" alt="Senior raft guide: Finley Brock">
                     <figcaption>Finley Brock</figcaption>
                     <figcaption>Senior Raft Guide</figcaption>
                 </figure>
-                <figure>
+                <figure class="employee-2">
                     <img src="images/employee-2.jpg" alt="Raft guide: Maximo Wagner">
                     <figcaption>Maximo Wagner</figcaption>
                     <figcaption>Raft Guide</figcaption>
                 </figure>
-                <figure>
+                <figure class="employee-3">
                     <img src="images/employee-3.jpg" alt="Raft guide: Jennifer Hall">
                     <figcaption>Jennifer Hall</figcaption>
                     <figcaption>Raft Guide</figcaption>
                 </figure>
-                <figure>
+                <figure class="employee-4">
                     <img src="images/employee-4.jpg" alt="Raft guide: Miguel Donaldson">
                     <figcaption>Miguel Donaldson</figcaption>
                     <figcaption>Raft Guide</figcaption>
                 </figure>
             </div>
             <form>
-                <h2>Enquiry Form</h2>
-                <label for="name">Name: </label>
-                <input type="text" id="name" name="name"><br>
+                <fieldset>
+                    <legend><h2>Enquiry Form</h2></legend>
+                    <label for="name">Name: </label><br>
+                    <input type="text" id="name" name="name"><br><br>
 
-                <label for="email">Email: </label>
-                <input type="text" id="email" name="email"><br>
+                    <label for="email">Email: </label><br>
+                    <input type="text" id="email" name="email"><br><br>
 
-                <label for="purpose">Purpose: </label><br>
-                <input type="radio" id="purpose" name="purpose" value="general inquiry"><label for="purpose">General Inquiry</label><br>
-                <input type="radio" id="purpose" name="purpose" value="reservation question"><label for="purpose">Reservation Question</label><br>
-                <input type="radio" id="purpose" name="purpose" value="website suggestion"><label for="purpose">Website Suggestion</label><br>
+                    <label for="purpose">Purpose: </label><br>
+                    <input type="radio" id="purpose" name="purpose" value="general inquiry"><label for="purpose">General Inquiry</label><br>
+                    <input type="radio" id="purpose" name="purpose" value="reservation question"><label for="purpose">Reservation Question</label><br>
+                    <input type="radio" id="purpose" name="purpose" value="website suggestion"><label for="purpose">Website Suggestion</label><br><br>
 
-                <label for="message">Your Message: </label><br>
-                <textarea id="message" name="message" rows="4" placeholder="Enter your message here..."></textarea><br>
+                    <label for="message">Your Message: </label><br>
+                    <textarea id="message" name="message" rows="4" placeholder="Enter your message here..."></textarea><br>
 
-                <label for="subscription">Please subscribe me to the monthly newsletter!</label>
-                <input type="checkbox" id="subscription" name="subscription"><br>
-
+                    <label for="subscription">Please subscribe me to the monthly newsletter!</label>
+                    <input type="checkbox" id="subscription" name="subscription"><br>
+                </fieldset>
                 <button type="submit">Submit</button>
             </form>
         </main>
