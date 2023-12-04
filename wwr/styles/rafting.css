@@ -17,7 +17,7 @@
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 960px;
+    width: 960px;
     padding: 20px;
 }
 
@@ -85,8 +85,12 @@ footer img {
     padding: 5px;
 }
 
-.hero div {
+.hero {
     position: relative;
+}
+
+.hero img {
+    max-width: 100%;
 }
 
 .background {
@@ -96,19 +100,23 @@ footer img {
 
 .rafting {
     position: absolute;
-    top: 350px;
+    top: 50px;
     background-color:aliceblue;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 15%;
-    padding-right: 2%;
+    right: 0;
+    left: 0;
+    text-align: center;
     opacity: 0.72;
 }
 
 article {
     position: absolute;
-    top: 500px;
-    left: 51px;
+    top: 200px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 90%;
     background: var(--secondary-color);
 	border: 1px groove aliceblue;
 	padding: 1rem;
@@ -167,6 +175,8 @@ article img {
     grid-template-rows: 4em 1fr;
     background-color: aliceblue;
     margin-top: 20px;
+    max-width: 960px;
+    padding-left: 25px;
 }
 
 .pictures-section h2 {
@@ -182,9 +192,13 @@ article img {
 }
 
 .pictures-section img {
-    width: 200px;
+    width: 150px;
     height: auto;
     padding: 0;
+}
+
+figure {
+    margin: 2px;
 }
 
 .image-1 {
