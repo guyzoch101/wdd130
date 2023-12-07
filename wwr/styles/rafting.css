@@ -89,7 +89,7 @@ footer img {
     position: relative;
 }
 
-.hero img, .popular img, .other-trips img {
+.hero img {
     max-width: 100%;
 }
 
