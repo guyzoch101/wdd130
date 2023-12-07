@@ -89,7 +89,7 @@ footer img {
     position: relative;
 }
 
-.hero img {
+.hero img, .popular img, .other-trips img {
     max-width: 100%;
 }
 
@@ -244,6 +244,7 @@ footer nav {
     padding: 15px;
 }
 
+/* contact us */
 .company-information {
     background-color:aliceblue;
     padding: 10px;
@@ -347,4 +348,24 @@ button:hover {
     background-color: #23022e;
     color: white;
     border: 1px solid #23022e;
+}
+
+/* trips */
+.trip {
+    text-align: center;
+}
+
+.popular {
+    background-color:#eff8e2;
+}
+
+.popular h1 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.popular img {
+    width: 400px;
+    height: auto;
+    padding: 30px;
 }
