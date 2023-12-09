@@ -460,3 +460,37 @@ button:hover {
 .other-trips p {
     font-size: 1.2em;
 }
+
+/* home page */
+.header-message {
+    background-color: #fffff1;
+    margin-bottom: 40px;
+}
+
+.header-message img {
+    max-width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 2.5%;
+    padding-bottom: 4%
+}
+
+.message-a {
+    position: absolute;
+    bottom: 85px;
+    left: 260px;
+}
+
+.message-b {
+    position: absolute;
+    bottom: 40px;
+    left: 200px;
+}
+
+.header-message div h1 {
+    text-align: center;
+    padding: none;
+    margin: none;
+}
