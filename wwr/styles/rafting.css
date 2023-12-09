@@ -59,9 +59,14 @@ nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
 
-nav a:hover {
+nav a:hover, .active {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+
+.active {
+    pointer-events: none;
+    cursor: not-allowed;
 }
 
 a:link {
