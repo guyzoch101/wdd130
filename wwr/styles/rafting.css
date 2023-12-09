@@ -348,6 +348,10 @@ button:hover {
     text-align: center;
 }
 
+.call button:hover a {
+    color: white;
+}
+
 .popular {
     background-color:#eff8e2;
     display: grid;
