@@ -348,14 +348,18 @@ button:hover {
     background-color:#eff8e2;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 3em repeat(2, 380px 22em);
+    grid-template-rows: 7em repeat(2, 380px 22em);
     padding-bottom: 50px;
 }
 
-.popular h1 {
+.popular-heading {
     text-align: center;
     padding-top: 20px;
     grid-column: span 2;
+}
+
+.popular-heading h2 {
+    color: #e94f37;
 }
 
 .popular img {
@@ -468,13 +472,18 @@ thead {
 }
 
 .row-head th {
-    font-size: 1.2em;
+    font-size: 1.4em;
+}
+
+td {
+    font-size: 1.1em;
 }
 
 .empty {
     font-family: var(--heading-font);
     color: var(--primary-color);
     font-size: 1.5em;
+    padding: 18px;
 }
 
 /* home page */
