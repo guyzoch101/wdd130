@@ -468,12 +468,11 @@ button:hover {
 }
 
 .header-message img {
-    max-width: 95%;
+    max-width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    padding-top: 2.5%;
     padding-bottom: 4%
 }
 
@@ -481,16 +480,69 @@ button:hover {
     position: absolute;
     bottom: 85px;
     left: 260px;
+    opacity: 0;
+    transition: 0.5s ease;
+    text-shadow: 2px 3px #b1b695;
 }
 
 .message-b {
     position: absolute;
     bottom: 40px;
     left: 200px;
+    opacity: 0;
+    transition: 0.5s ease;
+    text-shadow: 2px 3px #b1b695;
+}
+
+.header-message:hover .message-a, .header-message:hover .message-b {
+    opacity: 1;
+    transition: 1s;
 }
 
 .header-message div h1 {
     text-align: center;
     padding: none;
     margin: none;
+}
+
+.info-img-1, .info-img-2 {
+    width: 400px;
+    height: auto;
+    padding: 0 30px;
+}
+
+.information {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+    padding: 20px 0;
+    background-color: #afd2e9;
+    margin-bottom: 30px;
+}
+
+.information h2 {
+    text-align: center;
+}
+
+.info-1, .info-2 {
+    padding: 0 30px;
+}
+
+.info-img-1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.info-1 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.info-2 {
+    grid-area: 2 / 1 / 3 / 2;
+    text-align: right;
+}
+
+.info-img-2 {
+    grid-area: 2 / 2 / 3 / 3;
 }
