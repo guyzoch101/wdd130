@@ -64,11 +64,6 @@ nav a:hover, .active {
     background-color: var(--nav-hover-background-color);
 }
 
-.active {
-    pointer-events: none;
-    cursor: not-allowed;
-}
-
 a:link {
     text-decoration: none;
 }
@@ -137,7 +132,7 @@ article img {
 
 .history-section {
     display: grid;
-    grid-template-columns: 550px 1fr;
+    grid-template-columns: 440px 1fr;
     grid-template-rows: 4em 1fr;
     background-color: #a4b0f5;
     column-gap: 5px;
@@ -160,7 +155,11 @@ article img {
     height: auto;
     align-self: center;
     align-items: center;
-    padding: 20px;
+    padding: 20px 60px;
+}
+
+.history-section p {
+    padding: 0 60px;
 }
 
 .right-p {
@@ -274,13 +273,6 @@ iframe {
     text-align: center; 
 }
 
-.employee-1 img {
-    width: 300px;
-    height: auto;
-    padding-top: 50px;
-    padding-left: 50px;
-}
-
 figure p {
     text-align: center;
     font-size: 1.1em;
@@ -288,15 +280,10 @@ figure p {
     font-weight: lighter;
 }
 
-.employee-2 img {
+.employees figure img {
     width: 400px;
     height: auto;
-    padding-top: 100px;
-}
-
-.employee-3 img, .employee-4 img {
-    width: 400px;
-    height: auto;
+    padding: 20px 40px;
 }
 
 form {
@@ -376,6 +363,7 @@ button:hover {
     margin: auto;
     display: inline;
     position: relative;
+    transition: 0.5s ease;
 }
 
 .popular img:hover {
@@ -501,8 +489,6 @@ button:hover {
 
 .header-message div h1 {
     text-align: center;
-    padding: none;
-    margin: none;
 }
 
 .info-img-1, .info-img-2 {
