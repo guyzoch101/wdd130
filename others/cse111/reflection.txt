@@ -1,0 +1,25 @@
+Please respond thoroughly (at least two sentences for each question) to
+the following three questions.
+
+1. Describe an experience you had this semester where you saw the power of
+functions.
+
+The biggest difference for me coding in cse110 and cse111 is that my codes are more organized.
+With the introduction of functions, I was able to group my codes performing a certain action within a function.
+Moreover, I can reuse my functions to perform similar actions with the help of passing parameters into it.
+Overall, I am able to more fully explain how the code works as it is more organized.
+
+2. In your judgment, what is the value of test functions?
+
+Test functions can check if my functions are working properly. It can be tested without completing the whole programme,
+allowing me to identify and possibly fix the code before more code is built upon an error.
+
+3. Describe your process for troubleshooting and fixing a program that
+has a problem. What is one thing you can do to improve your process?
+
+Firstly, I would run the programme, to see what error is raised and displayed in the terminal. Then, I would run its
+test functions, if there are one provided, to determine which function went wrong. Then, I would use the debugger to
+run through the code step by step. After identifying all bugs and errors, I would fix the code.
+
+I would improve it by adding more exceptions into the programme, and write more test functions for the code, which
+they can identify the bugs and errors more accurate and detailed.

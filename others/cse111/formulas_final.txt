@@ -1,0 +1,20 @@
+CSE 111: Final Project
+
+3rd party library scipy is installed (use constants in scipy)
+
+Heat Transfer and Gas Laws
+Pt 1:
+	E = mc(delta T)
+	E = m(lv or lf)
+	P = E/t
+
+Pt 2:
+	General Gas Law: P1V1/T1n1 = P2V2/T2n2
+	Ideal Gas Law:
+		pV = nRT
+		pV = (1/3)Nmc^2 (N = no. of molecules; m = mass of 1 molecule; c = root mean square speed)
+		pV = (1/3)nMc^2 (n = no. of moles; M = molar mass)
+	R: ideal gas constant
+		R = 0.0821 atm L/molK or 8.314 J/molK
+		KE_avg = (3/2)(R/Na or = k)T
+	
